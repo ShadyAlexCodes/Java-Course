@@ -3,18 +3,37 @@ package io.github.shadyalexcodes;
 public class Main {
 
     public static void main(String[] args) {
+
         /*
+          What is a variable?
+            - A variable is considered to be a `place` in memory and is a container
+            to store information in. Computers allow users to store thousands
+            of these containers in a single program. We can assign multiple forms
+            of information to these containers, such as giving it a name. For example, a
+            program wanted to calculate a users current age based on the date they'd need to use
+            multiple variables. The computer would need some place to store all this different information,
+            and this is where variables come into play. Without the ability to store information the computers
+            cannot process anything.
 
-        What am I doing?
+          How do you create a variable?
+            - To create a variable we need to define their `data type`, assign a name to it, and define a `value` to it.
+            One of the most basic data types is a `int` which is short for integer. Let's break it down even more an
+            `int` is a `data type` which tells java to that we need to assign a `container` or an `area of memory` to
+            store this information (In this case our integer or item) After that we define our variable name `myFirstNumber`,
+            which gives our program something to call this. This is then followed by a `equal sign (=)` and a `number` next to the end.
+            This tells our int that we'd like to assign the value of 5 to it. (But keep in mind variables are flexible and we can assign
+            numbers to this)
 
-            While System.out.println is a Java statement that is used to print an
-            argument that has been passed through the System.out statement. The word `System.`
-            is a final class created in java.lang package. The `.out` is a static member of the System class
-            and is a PrintSteam. 'println' is a method of the PrintSteam class, in which prints any given argument based
-            onto a new line. Each time that these arguments are placed together and make a command which prints the line "Hello World!"
+            - `int`'s are not limited to one singular number. You are able to create longer or more difficult equations.
 
-        */
-        System.out.println("Hello World!!");
+            * An abbreviation to `System.out.println();` is `sout`
+
+         */
+
+        int myFirstNumber = 5;
+
+
+        System.out.println(myFirstNumber); // We're telling Java to print the variable we created
     }
 
 }
