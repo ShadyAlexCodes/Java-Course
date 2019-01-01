@@ -8,11 +8,13 @@ public class Main {
         // An integer has a width of 32
 	    int myMinValue = -2147483648;
         int myMaxValue = 2147483647;
-
+        int myTotal = (myMinValue/2);
+        System.out.println("myTotal = " + myTotal);
 
         // A byte has a width of 8
-        byte myByteValue = 10;
-
+        byte myByteValue = -128;
+        byte myNewByteValue = (byte) (myByteValue/2);
+        System.out.println("myNewByteValue = " + myNewByteValue);
         /*
             What is a byte?
                 - A `byte` is a data type that allocates smaller amounts of data for the computer.
@@ -23,6 +25,8 @@ public class Main {
 
         // A short has the width of 16
         short myShortValue = 30000;
+        short myNewShortValue = (short) (myShortValue/2);
+        System.out.println("myNewShortValue = " + myNewShortValue);
 
         /*
             What is a short?
@@ -30,9 +34,12 @@ public class Main {
                 about half the amount of an `integer`.
          */
 
-        
+
         // A long has a width of 64
         long myLongValue = 100L;
+        long myNewLongValue = (long) (myLongValue/2);
+        System.out.println("myNewLongValue = " + myNewLongValue);
+
         /*
             What is a long?
                 - A `long` is where the computer or user has a number larger than the amount of an integer.
