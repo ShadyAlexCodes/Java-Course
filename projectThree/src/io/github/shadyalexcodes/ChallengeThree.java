@@ -1,6 +1,6 @@
 package io.github.shadyalexcodes;
 
-public class Challenge {
+public class ChallengeThree {
 
     public static void main(String[] args) {
 

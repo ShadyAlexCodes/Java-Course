@@ -1,6 +1,6 @@
 package io.github.shadyalexcodes;
 
-public class Main {
+public class ProjectThree {
 
     public static void main(String[] args) {
 
