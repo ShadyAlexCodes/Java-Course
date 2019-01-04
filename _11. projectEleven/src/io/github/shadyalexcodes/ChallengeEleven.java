@@ -33,7 +33,7 @@ public class ChallengeEleven {
         highScorePosition = calculateHighScorePosition(400);
         displayHighScorePosition("Joe", highScorePosition);
 
-        highScorePosition = calculateHighScorePosition(500);
+        highScorePosition = calculateHighScorePosition(50);
         displayHighScorePosition("Tim", highScorePosition);
 
     }
@@ -50,9 +50,9 @@ public class ChallengeEleven {
             return 2;
         } else if (playerScore >= 100) {
             return 3;
-        } else {
-            return 4;
         }
+
+        return 4;
     }
 }
 
